@@ -1,17 +1,22 @@
 h1 {
-    color: red;
+    color: black;
 }
 head {
     padding: 1em;
     text-align: center;
-    background-color: aqua;
+    background-color: white;
     color: black;
 }
 body {
-    background-color: aquamarine;
+    background-color: white;
     padding: 1em;
     border: 5px solid salmon;
 }
 p {
-    color: tomato;
+    color: black;
+}
+@media print {
+    main {
+        border: none;
+    }
 }
