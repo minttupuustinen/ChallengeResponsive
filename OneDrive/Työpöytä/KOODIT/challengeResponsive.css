@@ -1,22 +1,19 @@
-h1 {
-    color: black;
-}
-head {
-    padding: 1em;
+header {
+    padding: 1.2em;
     text-align: center;
-    background-color: white;
+    background-color: aquamarine;
     color: black;
 }
-body {
-    background-color: white;
-    padding: 1em;
-    border: 5px solid salmon;
+
+main {
+    background-color: antiquewhite;
+    padding: 1.2em;
+    border: 5px solid #1560bd;
 }
+
 p {
+    font-size: 1.2em;
     color: black;
 }
-@media print {
-    main {
-        border: none;
-    }
-}
+
+ 
